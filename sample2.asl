@@ -81,7 +81,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "pin@6", "IP06" }, // REF3P
                             Package () { "pin@7", "IP07" }, // REF3N
                             Package () { "pin@8", "IP08" }, // REF4P
-                            Package () { "pin@9", "IP08" }, // REF4N
+                            Package () { "pin@9", "IP09" }, // REF4N
                         }
                     })
                     Name (OPNS, Package () {
