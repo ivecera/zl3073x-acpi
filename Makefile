@@ -1,6 +1,6 @@
 IASL := iasl
 
-SRC := sample1.asl sample2.asl
+SRC := sample1.asl sample2.asl sample3.asl
 
 OBJ := $(SRC:.asl=.aml)
 
