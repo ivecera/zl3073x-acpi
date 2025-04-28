@@ -50,7 +50,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         ToUUID ("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
                         Package () {
                             Package () {
-                                "compatible", "microchip,zl3073x-i2c"
+                                "compatible", "microchip,zl30732"
                             },
                             Package () {
                                 "reg", 0x71
