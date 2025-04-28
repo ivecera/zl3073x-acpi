@@ -93,7 +93,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 0 },
                             Package () { "label", "SyncE_RClk0" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 78125000 }
                             },
                         }
@@ -103,7 +103,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 2 },
                             Package () { "label", "SyncE_RClk1" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 78125000 }
                             },
                         }
@@ -114,7 +114,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 4 },
                             Package () { "label", "U.FL1" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1, 10000000 }
                             },
                         }
@@ -125,7 +125,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 5 },
                             Package () { "label", "U.FL2" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1, 10000000 }
                             },
                         }
@@ -135,7 +135,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 7 },
                             Package () { "label", "SDP0" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1 }
                             },
                         }
@@ -145,7 +145,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 8 },
                             Package () { "label", "TCX0" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 20000000 }
                             },
                         }
@@ -155,7 +155,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 0 },
                             Package () { "label", "SyncE_Ref" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 156250000 }
                             },
                         }
@@ -165,7 +165,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 2 },
                             Package () { "label", "Time_Ref" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 156250000 }
                             },
                         }
@@ -176,7 +176,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 8 },
                             Package () { "label", "CONN1" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1, 10000000 }
                             },
                         }
@@ -186,7 +186,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 9 },
                             Package () { "label", "SDP1" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1 }
                             },
                         }
@@ -197,7 +197,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 10 },
                             Package () { "label", "CONN2" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1, 10000000 }
                             },
                         }
@@ -207,7 +207,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 14 },
                             Package () { "label", "TP7P" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 156250000 }
                             },
                         }

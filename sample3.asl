@@ -78,7 +78,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 0 },
                     Package () { "label", "SDP2-REF0P" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             1000,
                         }
@@ -91,7 +91,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 1 },
                     Package () { "label", "SDP0-REF0N" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             1,
                         }
@@ -104,7 +104,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 2 },
                     Package () { "label", "SYNCE0-REF1P" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             78125000,
                         }
@@ -117,7 +117,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 3 },
                     Package () { "label", "SYNCE0-REF1N" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             78125000,
                         }
@@ -130,7 +130,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 5 },
                     Package () { "label", "GNSS10M-REF2N" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             10000000,
                         }
@@ -143,7 +143,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 6 },
                     Package () { "label", "SMAIN-REF3P" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             10000000,
                         }
@@ -156,7 +156,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 8 },
                     Package () { "label", "GNSS1PPS-REF4P" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             1,
                         }
@@ -169,7 +169,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 9 },
                     Package () { "label", "OCXO-REF4N" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             10000000,
                         }
@@ -182,7 +182,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 0 },
                     Package () { "label", "OUT0P-RJ45" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             10000000,
                         }
@@ -195,7 +195,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 1 },
                     Package () { "label", "OUT0N-RJ45" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             10000000,
                         }
@@ -208,7 +208,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 2 },
                     Package () { "label", "OUT1P-SMA" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 10000000 }
                     },
                     Package () { "connection-type", "gnss" },
@@ -219,7 +219,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 3 },
                     Package () { "label", "OUT1N-R2A" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 10000000 }
                     },
                     Package () { "connection-type", "gnss" },
@@ -231,7 +231,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                     Package () { "reg", 4 },
                     Package () { "label", "OUT2PN-R1A" },
                     Package () { "esync-control", 1},
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 10000000 }
                     },
                     Package () { "connection-type", "gnss" },
@@ -242,7 +242,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 6 },
                     Package () { "label", "OUT3PN-SYNCEREF" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 156250000 }
                     },
                     Package () { "connection-type", "synce" },
@@ -253,7 +253,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 8 },
                     Package () { "label", "OUT4PN-TIMEREF" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 156250000 }
                     },
                     Package () { "connection-type", "synce" },
@@ -265,7 +265,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                     Package () { "reg", 10 },
                     Package () { "label", "OUT5PN-R1A" },
                     Package () { "esync-control", 1},
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 10000000 }
                     },
                     Package () { "connection-type", "synce" },
@@ -276,7 +276,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 12 },
                     Package () { "label", "OUT6P-OCXO" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 1 }
                     },
                     Package () { "connection-type", "synce" },
@@ -287,7 +287,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 14 },
                     Package () { "label", "OUT7P-R1A" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 1 }
                     },
                     Package () { "connection-type", "gnss" },
@@ -298,7 +298,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 15 },
                     Package () { "label", "OUT7N-R1A" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 1 }
                     },
                     Package () { "connection-type", "gnss" },
@@ -309,7 +309,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 16 },
                     Package () { "label", "OUT8P-SDP3" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             1000,
                         }
@@ -322,7 +322,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 17 },
                     Package () { "label", "OUT8N-SDP1" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () {
                             1,
                         }
@@ -335,7 +335,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                 Package () {
                     Package () { "reg", 18 },
                     Package () { "label", "OUT9PN-XTAL" },
-                    Package () { "supported-frequencies",
+                    Package () { "supported-frequencies-hz",
                         Package () { 25000000 }
                     },
                     Package () { "connection-type", "gnss" },

@@ -108,7 +108,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 0 },
                             Package () { "label", "1PPS_IN1" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -123,7 +123,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 1 },
                             Package () { "label", "1PPS_IN0" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -138,7 +138,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 2 },
                             Package () { "label", "RCLKA_IN" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -153,7 +153,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 3 },
                             Package () { "label", "RCLKB_IN" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -176,7 +176,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 5 },
                             Package () { "label", "GNSS_10M_IN" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -191,7 +191,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 6 },
                             Package () { "label", "SMA1_IN" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -206,7 +206,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 7 },
                             Package () { "label", "SMA3_IN" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -221,7 +221,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 8 },
                             Package () { "label", "GNSS_1PPS_IN" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -236,7 +236,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 9 },
                             Package () { "label", "REF4N" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000,
                                     62500000, 78125000, 100000000
@@ -251,7 +251,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 0 },
                             Package () { "label", "SMA0_OUT" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
@@ -265,7 +265,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 1 },
                             Package () { "label", "1PPS_OUT4" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
@@ -278,7 +278,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 2 },
                             Package () { "label", "OUT1P_U_FL" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 10000000 }
                             },
                             Package () { "connection-type", "gnss" },
@@ -289,7 +289,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 3 },
                             Package () { "label", "AIC_SCLK" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 10000000 }
                             },
                             Package () { "connection-type", "gnss" },
@@ -300,7 +300,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 4 },
                             Package () { "label", "AIC_SCLK2" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 10000000 }
                             },
                             Package () { "connection-type", "gnss" },
@@ -311,7 +311,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 5 },
                             Package () { "label", "SMA2_OUT" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 10000000 }
                             },
                             Package () { "connection-type", "gnss" },
@@ -322,7 +322,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 6 },
                             Package () { "label", "SYNC_CLK1" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 156250000 }
                             },
                             Package () { "connection-type", "synce" },
@@ -333,7 +333,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 8 },
                             Package () { "label", "SYNC_CLK0" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 156250000 }
                             },
                             Package () { "connection-type", "synce" },
@@ -344,7 +344,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 10 },
                             Package () { "label", "SYNC_CLK2" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 156250000 }
                             },
                             Package () { "connection-type", "synce" },
@@ -355,7 +355,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 12 },
                             Package () { "label", "1HZ_FREQ" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1 }
                             },
                             Package () { "connection-type", "synce" },
@@ -374,7 +374,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 14 },
                             Package () { "label", "1PPS_OUT3" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1 }
                             },
                             Package () { "connection-type", "gnss" },
@@ -385,7 +385,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 15 },
                             Package () { "label", "1PPS_OUT2" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 1 }
                             },
                             Package () { "connection-type", "gnss" },
@@ -397,7 +397,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 16 },
                             Package () { "label", "1PPS_OUT1" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
@@ -411,7 +411,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 17 },
                             Package () { "label", "1PPS_OUT0" },
                             Package () { "esync-control", 1},
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () {
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
@@ -424,7 +424,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 18 },
                             Package () { "label", "SYNC_25M" },
-                            Package () { "supported-frequencies",
+                            Package () { "supported-frequencies-hz",
                                 Package () { 25000000 }
                             },
                             Package () { "connection-type", "gnss" },
