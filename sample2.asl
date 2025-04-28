@@ -114,7 +114,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (IP01, Package () { /* REF0N */
@@ -129,7 +129,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (IP02, Package () { /* REF1P */
@@ -144,7 +144,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "synce" },
+                            Package () { "connection-type", "synce" },
                         }
                     })
                     Name (IP03, Package () { /* REF1N */
@@ -159,7 +159,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "synce" },
+                            Package () { "connection-type", "synce" },
                         }
                     })
                     Name (IP04, Package () { /* REF2P */
@@ -167,7 +167,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 4 },
                             Package () { "label", "REF2P" },
-                            Package () { "type", "ext" },
+                            Package () { "connection-type", "ext" },
                         }
                     })
                     Name (IP05, Package () { /* REF2N */
@@ -182,7 +182,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (IP06, Package () { /* REF3P */
@@ -197,7 +197,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "ext" },
+                            Package () { "connection-type", "ext" },
                         }
                     })
                     Name (IP07, Package () { /* REF3N */
@@ -212,7 +212,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "ext" },
+                            Package () { "connection-type", "ext" },
                         }
                     })
                     Name (IP08, Package () { /* REF4P */
@@ -227,7 +227,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (IP09, Package () { /* REF4P */
@@ -242,7 +242,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     62500000, 78125000, 100000000
                                 }
                             },
-                            Package () { "type", "int" },
+                            Package () { "connection-type", "int" },
                         }
                     })
                     Name (OP00, Package () { /* OUT0P */
@@ -256,7 +256,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP01, Package () { /* OUT0N */
@@ -270,7 +270,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP02, Package () { /* OUT1P */
@@ -281,7 +281,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 10000000 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP03, Package () { /* OUT1N */
@@ -292,7 +292,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 10000000 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP04, Package () { /* OUT2P */
@@ -303,7 +303,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 10000000 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP05, Package () { /* OUT2N */
@@ -314,7 +314,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 10000000 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP06, Package () { /* OUT3 (diff) */
@@ -325,7 +325,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 156250000 }
                             },
-                            Package () { "type", "synce" },
+                            Package () { "connection-type", "synce" },
                         }
                     })
                     Name (OP08, Package () { /* OUT4 (diff) */
@@ -336,7 +336,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 156250000 }
                             },
-                            Package () { "type", "synce" },
+                            Package () { "connection-type", "synce" },
                         }
                     })
                     Name (OP10, Package () { /* OUT5 (diff) */
@@ -347,7 +347,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 156250000 }
                             },
-                            Package () { "type", "synce" },
+                            Package () { "connection-type", "synce" },
                         }
                     })
                     Name (OP12, Package () { /* OUT6P */
@@ -358,7 +358,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 1 }
                             },
-                            Package () { "type", "synce" },
+                            Package () { "connection-type", "synce" },
                         }
                     })
                     Name (OP13, Package () { /* OUT6N */
@@ -366,7 +366,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         Package () {
                             Package () { "reg", 13 },
                             Package () { "label", "SYNC_CLK_GD" },
-                            Package () { "type", "int" },
+                            Package () { "connection-type", "int" },
                         }
                     })
                     Name (OP14, Package () { /* OUT7P */
@@ -377,7 +377,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 1 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP15, Package () { /* OUT7N */
@@ -388,7 +388,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 1 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP16, Package () { /* OUT8P */
@@ -402,7 +402,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP17, Package () { /* OUT8N */
@@ -416,7 +416,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                                     1, 25, 100, 1000, 10000000, 25000000
                                 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                     Name (OP18, Package () { /* OUT9 (diff) */
@@ -427,7 +427,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "supported-frequencies",
                                 Package () { 25000000 }
                             },
-                            Package () { "type", "gnss" },
+                            Package () { "connection-type", "gnss" },
                         }
                     })
                 }
