@@ -30,9 +30,6 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                         "reg", 0x70
                     },
                     Package () {
-                        "num_dplls", 2
-                    },
-                    Package () {
                         "dpll-types", Package () { "eec", "pps" }
                     },
                 },
