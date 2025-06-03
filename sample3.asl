@@ -209,6 +209,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                     Package () { "reg", 2 },
                     Package () { "label", "OUT1P-SMA" },
                     Package () { "supported-frequencies-hz",
+                        Package () { 1 },
                         Package () { 10000000 }
                     },
                     Package () { "connection-type", "gnss" },
