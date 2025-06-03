@@ -84,8 +84,8 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "pin@2",  "OP02" }, // OUT1 diff (P&N)
                             Package () { "pin@8",  "OP08" }, // OUT4P
                             Package () { "pin@9",  "OP09" }, // OUT4N
-                            Package () { "pin@10", "OP10" }, // OUT5P
-                            Package () { "pin@14", "OP14" }, // OUT7P
+                            Package () { "pin@a",  "OP10" }, // OUT5P
+                            Package () { "pin@e",  "OP14" }, // OUT7P
                         }
                     })
                     Name (IP00, Package () {

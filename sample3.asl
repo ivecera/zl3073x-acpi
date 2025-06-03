@@ -63,14 +63,14 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                     Package () { "pin@4",  "OP04" }, // OUT2 (diff)
                     Package () { "pin@6",  "OP06" }, // OUT3 (diff)
                     Package () { "pin@8",  "OP08" }, // OUT4 (diff)
-                    Package () { "pin@10", "OP10" }, // OUT5 (diff)
-                    Package () { "pin@12", "OP12" }, // OUT6P
-                    Package () { "pin@13", "OP13" }, // OUT6N
-                    Package () { "pin@14", "OP14" }, // OUT7P
-                    Package () { "pin@15", "OP15" }, // OUT7N
-                    Package () { "pin@16", "OP16" }, // OUT8P
-                    Package () { "pin@17", "OP17" }, // OUT8N
-                    Package () { "pin@18", "OP18" }, // OUT9 (diff)
+                    Package () { "pin@a",  "OP10" }, // OUT5 (diff)
+                    Package () { "pin@c",  "OP12" }, // OUT6P
+                    Package () { "pin@d",  "OP13" }, // OUT6N
+                    Package () { "pin@e",  "OP14" }, // OUT7P
+                    Package () { "pin@f",  "OP15" }, // OUT7N
+                    Package () { "pin@10", "OP16" }, // OUT8P
+                    Package () { "pin@11", "OP17" }, // OUT8N
+                    Package () { "pin@12", "OP18" }, // OUT9 (diff)
                 }
             })
             Name (IP00, Package () { /* REF0P */
