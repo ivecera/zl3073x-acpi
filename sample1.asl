@@ -156,7 +156,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 0 },
                             Package () { "label", "SyncE_Ref" },
                             Package () { "supported-frequencies-hz",
-                                Package () { 156250000 }
+                                Package () { 1 }
                             },
                         }
                     })
@@ -166,7 +166,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 2 },
                             Package () { "label", "Time_Ref" },
                             Package () { "supported-frequencies-hz",
-                                Package () { 156250000 }
+                                Package () { 1 }
                             },
                         }
                     })
@@ -177,7 +177,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "label", "CONN1" },
                             Package () { "esync-control", 1},
                             Package () { "supported-frequencies-hz",
-                                Package () { 1, 10000000 }
+                                Package () { 1, 156250000 }
                             },
                         }
                     })
@@ -198,7 +198,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "label", "CONN2" },
                             Package () { "esync-control", 1},
                             Package () { "supported-frequencies-hz",
-                                Package () { 1, 10000000 }
+                                Package () { 1, 156250000 }
                             },
                         }
                     })
@@ -208,7 +208,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
                             Package () { "reg", 14 },
                             Package () { "label", "TP7P" },
                             Package () { "supported-frequencies-hz",
-                                Package () { 156250000 }
+                                Package () { 1 }
                             },
                         }
                     })
