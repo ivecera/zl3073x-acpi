@@ -19,7 +19,7 @@ DefinitionBlock ("", "SSDT", 1, "VENDOR", "VENDORID", 0x00000003)
             // _CRS: Current Resource Settings
             Name (_CRS, ResourceTemplate ()
             {
-                I2cSerialBusV2 (0x0070, ControllerInitiated, 0x000186A0,
+                I2cSerialBusV2 (0x0070, ControllerInitiated, 0x00061A80,
                                 AddressingMode7Bit,
                                 "\\_SB_.DI00.SBUS.MUX0.CH03",
                                 0x00, ResourceConsumer, , Exclusive,)
