@@ -22,6 +22,7 @@ DefinitionBlock ("", "SSDT", 2, "REDHAT", "DPLLNIC ", 0x00000001)
 {
     External (_SB_, DeviceObj)
     External (_SB_.DI04, DeviceObj)
+    External (_SB_.DI00.SBUS.MUX0.CH03.DPLL, DeviceObj)
 
     Scope (_SB.DI04)
     {
@@ -50,10 +51,14 @@ DefinitionBlock ("", "SSDT", 2, "REDHAT", "DPLLNIC ", 0x00000001)
                             "dpll-pins", 
                             Package ()
                             {
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.IP00", 
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.IP02",
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.OP00", 
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.OP02",
+			        /* input pin 0 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 0, 0,
+				/* input pin 2 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 2, 0,
+				/* output pin 0 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 0, 1,
+				/* output pin 2 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 2, 1,
                             }
                         }
                     }
@@ -82,9 +87,12 @@ DefinitionBlock ("", "SSDT", 2, "REDHAT", "DPLLNIC ", 0x00000001)
                             "dpll-pins", 
                             Package ()
                             {
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.IP00", 
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.IP02",
-                                "\\_SB_.DI00.SBUS.MUX0.CH03.DPLL.OP00", 
+			        /* input pin 0 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 0, 0,
+				/* input pin 2 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 2, 0,
+				/* output pin 0 */
+                                \_SB_.DI00.SBUS.MUX0.CH03.DPLL, 0, 1,
                             }
                         }
                     }
