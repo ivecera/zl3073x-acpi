@@ -67,8 +67,7 @@
 #define REF4P_PRESENT           1
 #define REF4P_LABEL             "GNSS_1_PPS_IN"
 #define REF4P_TYPE              "gnss"
-#define REF4P_ESYNC             1
-#define REF4P_FREQS             1, 25, 100, 1000, 10000000, 25000000
+#define REF4P_FREQS             1
 
 #define REF4N_PRESENT           1
 #define REF4N_LABEL             "OCXO"
