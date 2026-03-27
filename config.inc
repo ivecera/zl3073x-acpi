@@ -141,14 +141,12 @@
 #define OUT8P_PRESENT           1
 #define OUT8P_LABEL             "1PPS_OUT1"
 #define OUT8P_TYPE              "ext"
-#define OUT8P_ESYNC             1
-#define OUT8P_FREQS             1, 25, 100, 1000, 10000000, 25000000
+#define OUT8P_FREQS             1, 25, 100, 1000
 
 #define OUT8N_PRESENT           1
 #define OUT8N_LABEL             "1PPS_OUT0"
 #define OUT8N_TYPE              "ext"
-#define OUT8N_ESYNC             1
-#define OUT8N_FREQS             1, 25, 100, 1000, 10000000, 25000000
+#define OUT8N_FREQS             1, 25, 100, 1000
 
 #define OUT9_PRESENT            1
 #define OUT9_LABEL              "SYNC_25M"
