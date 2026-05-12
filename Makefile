@@ -2,7 +2,7 @@ CPP := $(CPP) -x c -P
 IASL := iasl
 
 SOURCE := gnr-d.asl
-TARGET := gnr-d.aml
+TARGET := gnr-d.aml gnr-d.dsl
 
 default: $(TARGET)
 
@@ -12,3 +12,5 @@ default: $(TARGET)
 %.aml: %.asli
 	$(IASL) $<
 
+%.dsl: %.aml
+	$(IASL) -d $<
