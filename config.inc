@@ -4,7 +4,7 @@
 #define SSDT_OEM_REV            1               /* SSDT OEM revision    */
 
 #define SMBUS_PARENT            \_SB_.DI00      /* SMBUS parent reference       */
-#define SMBUS_DEV               SBUS            /* SMBUS device node name       */
+#define SMBUS_DEV               SMBS            /* SMBUS device node name       */
 
 /*
  * I2C mux config
