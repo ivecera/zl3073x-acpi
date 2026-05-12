@@ -1,6 +1,6 @@
 #define SSDT_REV                1               /* SSDT revision        */
-#define SSDT_OEM_ID             "REDHAT"        /* SSDT OEM ID          */
-#define SSDT_OEM_TABLE          "DPLLNIC "      /* SSDT OEM Table       */
+#define SSDT_OEM_ID             "HPE   "        /* SSDT OEM ID          */
+#define SSDT_OEM_TABLE          "DPLLSSDT"      /* SSDT OEM Table       */
 #define SSDT_OEM_REV            1               /* SSDT OEM revision    */
 
 #define SMBUS_PARENT            \_SB_.DI00      /* SMBUS parent reference       */
