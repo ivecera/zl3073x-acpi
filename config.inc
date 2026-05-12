@@ -51,10 +51,9 @@
 #define REF2N_FREQS             10000000
 
 #define REF3P_PRESENT           1
-#define REF3P_LABEL             "SMA1_IN"
+#define REF3P_LABEL             "SMA3_1PPS_IN"
 #define REF3P_TYPE              "ext"
-#define REF3P_ESYNC             1
-#define REF3P_FREQS             1, 25, 100, 1000, 10000000, 25000000
+#define REF3P_FREQS             1, 10000000
 
 #define REF3N_PRESENT           1
 #define REF3N_LABEL             "SMA3_IN"
