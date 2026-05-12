@@ -40,8 +40,8 @@
 #define REF1P_FREQS             62500000, 78125000, 100000000
 
 #define REF1N_PRESENT           1
-#define REF1N_LABEL             "RCLKB_IN"
-#define REF1N_TYPE              "synce"
+#define REF1N_LABEL             "CLK_78M125_NAC0_SYNCE1"
+#define REF1N_TYPE              "mux"
 #define REF1N_FREQS             62500000, 78125000, 100000000
 
 #define REF2N_PRESENT           1
