@@ -30,9 +30,9 @@
 #define REF0P_FREQS             1000
 
 #define REF0N_PRESENT           1
-#define REF0N_LABEL             "1PPS_IN0"
+#define REF0N_LABEL             "ETH01_SDP_TIMESYNC_0"
 #define REF0N_TYPE              "ext"
-#define REF0N_FREQS             1, 25, 100, 1000
+#define REF0N_FREQS             1
 
 #define REF1P_PRESENT           1
 #define REF1P_LABEL             "RCLKA_IN"
