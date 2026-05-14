@@ -27,7 +27,7 @@
 #define REF0P_LABEL             "1PPS_IN1"              /* Pin board label                              */
 #define REF0P_TYPE              "ext"                   /* Pin type (gnss, ext, synce, mux or int       */
 //#define REF0P_ESYNC           1                       /* Pin supports esync control                   */
-#define REF0P_REFSYNC           "^DPLL.IP00"            /* Pin ref-sync reference to SYNC pin           */
+#define REF0P_REFSYNC           "^DPLL.IP01"            /* Pin ref-sync reference to SYNC pin           */
 #define REF0P_FREQS             1, 25, 100, 1000        /* Pin supported frequencies                    */
 
 #define REF0N_PRESENT           1
